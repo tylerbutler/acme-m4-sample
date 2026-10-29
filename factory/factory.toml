@@ -1,7 +1,7 @@
-# This inactive stub requires owner review before project use.
-# Copying the template does not approve paid work or remote writes.
+# This sample config requires owner review before init.
+# Config review does not approve paid work or remote provisioning.
 schema_version = 0
-repository = "tylerbutler/acme-template"
+repository = "tylerbutler/acme-m4-sample"
 profile = "cli"
 languages = ["rust"]
 autonomy = "L3"
@@ -18,7 +18,7 @@ version = "v0.93.5"
 enforce_monthly = false
 enforce_ai_credits = true
 max_ai_credits_per_run = 5000
-reason = "Inactive baseline; no paid runs or remote writes are approved."
+reason = "Sample validation only; no paid agent runs or remote provisioning are approved."
 
 [engines.intake]
 engine = "copilot"
@@ -66,7 +66,7 @@ needs = ["approved-spec", "ci"]
 provides = ["draft-pr"]
 
 [modules.ci]
-enabled = false
+enabled = true
 gate = "required-status-check"
 required_checks = ["CI"]
 commands = [
