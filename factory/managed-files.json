@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "acme_version": "0.2.0",
+  "entries": [
+    {
+      "module": "ci",
+      "path": ".github/actions/setup-rust/action.yml",
+      "sha256": "2410048c521137a003e0e981005a473d32e51d4db2ff1ed1231ad274081c0377"
+    },
+    {
+      "module": "ci",
+      "path": ".github/workflows/ci.yml",
+      "sha256": "f108835a2c64331ec0b63f476478cd9cf3b2b2e8f123a1d50922081d4d7e3d25"
+    }
+  ]
+}
